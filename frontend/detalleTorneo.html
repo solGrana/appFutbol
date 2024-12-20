@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Torneos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <button class="hamburger" aria-label="Menú">
+            ☰
+        </button>
+        <h1 class="organizer-name">Organizador XYZ</h1>
+        <button class="admin-login">A</button>
+    </header>
+
+    <div class="side-menu">
+        <button class="close-btn">
+            <span>&#10005;</span> <!-- Simbolo cruz -->
+        </button>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="torneos.html">Torneos</a></li>
+            <li><a href="tablaPosiciones.html">Tabla Posiciones</a></li>
+            <li><a href="reglamento.html">Reglamento</a></li>
+            <li><a href="galería.html">Galería</a></li>
+        </ul>
+        <div class="socials">
+            <a href="https://www.instagram.com" target="_blank">Instagram.com</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook.com</a>
+        </div>
+    </div>
+
+    <main>
+        <section class="categories">
+            <!-- Aca se cargan de la bd los datos correspondientes al torneo seleccionado -->
+            <h2>Torneo F5 femenino</h2> <!-- Nombre del torneo -->
+            <p>-Descripcion del torneo-</p> <!-- Descripcion del torneo -->
+            <p>fecha de inicio: 01/01/2024</p> <!-- fecha inicio del torneo-->
+            <!-- Todas las categorias que tiene el torneo seleccionado -->
+            <div class="card">
+                <h3>Categoria A</h3>
+            </div>
+            <div class="card">
+                <h3>Categoria B</h3>
+            </div>
+            <div class="card">
+                <h3>Categoria C</h3>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="socials">
+                <p>Encontranos en:</p>
+                <ul>
+                    <li><a href="https://www.instagram.com" target="_blank">@instagram.com</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">@facebook.com</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <p>Contacto:</p>
+                <ul>
+                    <li>Tel: 123456778</li>
+                    <li>Email: <a href="mailto:app@gmail.com">app@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr class="footer-line">
+        <p class="rights">© 2024 Todos los derechos reservados</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
